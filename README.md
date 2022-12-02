@@ -21,18 +21,13 @@ Updating the ERD map to include the new backers table. Through reviewing the bac
 ![load_check](images/load_check.png "SQL Load Check")
 
 
-## Summary:
+### Deliverable 4:
 
-      -- Create Table to show elibible employees count
-      SELECT COUNT(me.title), me.title
-      -- INTO mentor_elig_count
-      FROM mentorship_elig as me
-      GROUP BY me.title 
-      ORDER BY me.count DESC;
+There are 8,175 items in the backer table. 
 
-      -- Create Table to show elibible employees sum
-      SELECT SUM(count)
-      FROM mentor_elig_count;
+      SELECT COUNT(cf_id)
+      FROM backers;
+
 
    ![Mentorship_by_title](images/Mentor_by_title.png "Mentorship Eligibility Titles")
    ![Mentorship_total](images/Mentor_total.png "Mentorship Eligibility Total")
