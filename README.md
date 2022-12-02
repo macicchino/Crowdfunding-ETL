@@ -18,7 +18,7 @@ Using the python to split up columns and re-organize them to produced the cleane
 
 Updating the ERD map to include the new backers table. Through reviewing the backer tables properties, I was able to succesfully import the csv into the table. 
 
-![load_check](images/SQL_Load_Check.png "SQL Load Check")
+![load_check](images/load_check.png "SQL Load Check")
 
 
 ## Summary:
